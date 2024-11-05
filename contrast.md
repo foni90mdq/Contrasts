@@ -30,20 +30,14 @@ For our three contrasts:
 ## Step 3: Verify Orthogonality
 To confirm orthogonality, the sum of the products of the weights for each pair of contrasts should equal zero. Here’s the check for each pair:
 
-- **Contrast 1 x Contrast 2**: 
-  \[
-  (-4 \cdot 0) + (1 \cdot 3) + (1 \cdot -1) + (1 \cdot -1) + (1 \cdot -1) = 0
-  \]
+- **Contrast 1 x Contrast 2**:  
+  (-4 \* 0) + (1 \* 3) + (1 \* -1) + (1 \* -1) + (1 \* -1) = 0
 
-- **Contrast 1 x Contrast 3**: 
-  \[
-  (-4 \cdot 0) + (1 \cdot 0) + (1 \cdot 1) + (1 \cdot 1) + (1 \cdot -2) = 0
-  \]
+- **Contrast 1 x Contrast 3**:  
+  (-4 \* 0) + (1 \* 0) + (1 \* 1) + (1 \* 1) + (1 \* -2) = 0
 
-- **Contrast 2 x Contrast 3**: 
-  \[
-  (0 \cdot 0) + (3 \cdot 0) + (-1 \cdot 1) + (-1 \cdot 1) + (-1 \cdot -2) = 0
-  \]
+- **Contrast 2 x Contrast 3**:  
+  (0 \* 0) + (3 \* 0) + (-1 \* 1) + (-1 \* 1) + (-1 \* -2) = 0
 
 Each product sums to zero, confirming the contrasts are orthogonal.
 
@@ -60,4 +54,3 @@ Now, we can lay out the weights in a table format:
 
 ## Step 5: Interpret Each Contrast
 Each row in the table represents one group, and each column under the contrasts represents the comparison weights for that contrast. After calculating the group means and applying these weights, you can run a t-test or ANOVA for each contrast to check for significance.
-
